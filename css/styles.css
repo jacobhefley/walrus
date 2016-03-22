@@ -1,12 +1,14 @@
-#walrus-showing {
-  display: none;
-}
-
-.clickable {
+span {
   cursor: pointer;
   color: #0088cc;
 }
 
 .clickable:hover {
   text-decoration: underline;
+}
+.dark {
+  background-color: black;
+}
+.white {
+  color: white;
 }
