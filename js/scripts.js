@@ -17,4 +17,12 @@ $(function() {
   $(".fade-toggle").click(function() {
     $("img").fadeToggle();
   });
+
+  $(".darkmode").click(function() {
+    $("body").toggleClass("dark");
+    $("p, h1").toggleClass("white");
+  });
+
+
+
 });

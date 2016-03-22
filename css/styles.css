@@ -6,6 +6,7 @@ span {
 .clickable:hover {
   text-decoration: underline;
 }
+
 .dark {
   background-color: black;
 }
