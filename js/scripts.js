@@ -23,6 +23,12 @@ $(function() {
     $("p, h1").toggleClass("white");
   });
 
+  $("p").click(function() {
+    $(this).toggleClass("highlight");
+    $(this).children("span").toggleClass("highlight");
+    $(this).children("span").toggleClass("highlight");    
+  });
+
 
 
 });

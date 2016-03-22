@@ -13,3 +13,11 @@ span {
 .white {
   color: white;
 }
+.highlight {
+  border: 1px solid brown;
+  background-color: yellow;
+  color: black;
+}
+.unhighlight {
+  background-color: :white;
+}
